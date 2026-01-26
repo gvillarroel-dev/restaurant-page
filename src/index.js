@@ -1,1 +1,2 @@
-console.log("Proyecto iniciado");
+console.log("Webpack funcionando!");
+alert("JavaScript cargado correctamente");
