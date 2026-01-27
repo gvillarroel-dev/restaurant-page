@@ -57,8 +57,9 @@ html {
 }
 
 .home-btn {
-	width: 50px;
-	height: 50px;
+	width: clamp(2.6rem, 3rem, 4rem);
+	min-width: 40px;
+	height: clamp(2.6rem, 3rem, 4rem);
 
 	background: var(--btn-base-color);
 	border-radius: var(--border-radius-lg);
@@ -71,6 +72,7 @@ html {
 .header-menu {
 	width: 50%;
 	max-width: 260px;
+	min-width: 150px;
 	height: 100%;
 	padding: 5px;
 
@@ -118,4 +120,39 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/* ======================= CONTENT: home-page ============================== */
+.home-page {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-title {
+	font-size: clamp(0.8rem, 5vw, 1rem);
+	font-family: var(--font-primary);
+	font-weight: lighter;
+	color: var(--text-color-regular);
+	text-align: center;
+}
+
+.home-banner {
+	font-size: clamp(2rem, 2vw + 3.4rem, 5rem);
+	font-family: var(--font-heading);
+	font-weight: bold;
+	color: var(--text-color-regular);
+
+	max-width: 400px;
+	padding: 4px;
+	text-align: center;
+	line-height: 1;
+}
+
+.highlight {
+	color: var(--secondary-color);
 }
