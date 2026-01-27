@@ -1,2 +1,6 @@
+import "./style.css";
+import loadHome from "./pages/home.js";
+
+loadHome();
+
 console.log("Webpack funcionando!");
-alert("JavaScript cargado correctamente");
