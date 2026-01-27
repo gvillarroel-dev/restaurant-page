@@ -23,6 +23,7 @@ export default function loadMenu() {
         { name: "Plato 6", img: dish6, description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis arcu vitae enim bibendum dignissim. Morbi ut justo vel diam interdum tristique." },
         { name: "Plato 7", img: dish7, description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis arcu vitae enim bibendum dignissim. Morbi ut justo vel diam interdum tristique." },
         { name: "Plato 8", img: dish8, description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis arcu vitae enim bibendum dignissim. Morbi ut justo vel diam interdum tristique." },
+        { name: "Plato 9", img: dish2, description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis arcu vitae enim bibendum dignissim. Morbi ut justo vel diam interdum tristique." },
 	];
 
     dishes.forEach((dish) => {
