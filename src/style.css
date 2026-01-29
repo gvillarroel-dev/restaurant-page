@@ -553,10 +553,6 @@ html {
 		height: 55vh;
 		filter: brightness(65%);
 	}
-
-	.contact-page {
-		height: calc(100vh - 60px);
-	}
 }
 
 @media (min-width: 900px) {
