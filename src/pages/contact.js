@@ -95,6 +95,12 @@ export default function loadContact() {
 	const scheduleContainer = document.createElement("div");
 	scheduleContainer.classList.add("schedule-container");
 
+	const scheduleHeading = document.createElement("h3");
+	scheduleHeading.classList.add("schedule-heading");
+	scheduleHeading.textContent = "Opening Hours";
+
+	scheduleContainer.appendChild(scheduleHeading);
+
 	openingHours.forEach((schedule) => {
 		const itemCard = document.createElement("div");
 		itemCard.classList.add("schedule-item");
@@ -107,7 +113,7 @@ export default function loadContact() {
 		innerItem.classList.add("schedule-info");
 
 		const itemHeading = document.createElement("h3");
-		itemHeading.classList.add("schedule-heading");
+		itemHeading.classList.add("schedule-item-heading");
 		itemHeading.textContent = schedule.heading;
 
 		const itemP = document.createElement("p");
